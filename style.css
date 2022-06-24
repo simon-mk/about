@@ -1,0 +1,28 @@
+body {
+    background-image: url("img/bg1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #39545e;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /**/
+    
+   }
+
+#p1img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    /*B&W*/
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+     -ms-transition: all 1s ease;
+         transition: all 1s ease;
+
+}
+
+#p1img:hover {
+    -webkit-filter: grayscale(100%);
+  }
